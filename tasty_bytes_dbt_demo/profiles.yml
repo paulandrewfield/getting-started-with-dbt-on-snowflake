@@ -5,8 +5,8 @@ tasty_bytes:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
+      role: transformer
+      database: tasty_bytes_dbt_db_pf
       schema: dev
       warehouse: tasty_bytes_dbt_wh
       threads: 8
@@ -14,8 +14,8 @@ tasty_bytes:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
+      role: transformer
+      database: tasty_bytes_dbt_db_pf
       schema: prod
       warehouse: tasty_bytes_dbt_wh
       threads: 8
